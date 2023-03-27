@@ -1,0 +1,7 @@
+{
+	"/": [],
+	"/icons/[family]": [
+		"src/routes/icons/[family]/+page.ts"
+	],
+	"/settings": []
+}

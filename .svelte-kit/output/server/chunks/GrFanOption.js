@@ -1,0 +1,17 @@
+import { c as create_ssr_component, d as spread, e as escape_object } from "./index2.js";
+const Component = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<svg${spread(
+    [
+      { xmlns: "http://www.w3.org/2000/svg" },
+      { width: "24" },
+      { height: "24" },
+      { fill: "currentColor" },
+      { viewBox: "0 0 24 24" },
+      escape_object($$props)
+    ],
+    {}
+  )}><rect x="${"2"}" y="${"2"}" stroke="${"#000"}" stroke-width="${"2"}" rx="${"1"}"></rect><rect x="${"2"}" y="${"2"}" stroke="${"#000"}" stroke-width="${"2"}" rx="${"10"}"></rect><path stroke="${"#000"}" stroke-width="${"2"}" d="${"M15 9.5c.5-.333.9-1.7.5-2.5S13.333 5.667 13 5.5m1 5c1.5-2 0-3.5-2.5-5-1.546-.927 2-1.5 4.5.5 1.875 1.5 1 2.5-2 5.5v-1Zm-5.015 3.902c-.5.333-.9 1.7-.5 2.5s2.167 1.333 2.5 1.5m-1-5c-1.5 2 0 3.5 2.5 5 1.546.927-2 1.5-4.5-.5-1.875-1.5-1-2.5 2-5.5v1Zm-.443-4.458c-.334-.5-1.7-.9-2.5-.5s-1.334 2.166-1.5 2.5m5-1c-2-1.5-3.5 0-5 2.5-.928 1.546-1.5-2 .5-4.5 1.5-1.875 2.5-1 5.5 2h-1Zm3.902 5.014c.333.5 1.7.9 2.5.5s1.333-2.166 1.5-2.5m-5 1c2 1.5 3.5 0 5-2.5.927-1.546 1.5 2-.5 4.5-1.5 1.876-2.5 1-5.5-2h1Z"}"></path><path stroke="${"#000"}" stroke-width="${"2"}" d="${"M3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0 17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm17 0a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm0-17a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3ZM12 14a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"}" clip-rule="${"evenodd"}"></path></svg>`;
+});
+export {
+  Component as default
+};

@@ -1,0 +1,17 @@
+import { c as create_ssr_component, d as spread, e as escape_object } from "./index2.js";
+const Component = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<svg${spread(
+    [
+      { xmlns: "http://www.w3.org/2000/svg" },
+      { width: "24" },
+      { height: "24" },
+      { fill: "currentColor" },
+      { viewBox: "0 0 24 24" },
+      escape_object($$props)
+    ],
+    {}
+  )}><path d="${"M23 1.5q.41 0 .7.3.3.29.3.7v19q0 .41-.3.7-.29.3-.7.3H7q-.41 0-.7-.3-.3-.29-.3-.7V18H1q-.41 0-.7-.3-.3-.29-.3-.7V7q0-.41.3-.7Q.58 6 1 6h5V2.5q0-.41.3-.7.29-.3.7-.3ZM4.56 11l2.83 4.93h1.79V8.07H7.44v5.03L4.71 8.07H2.82v7.86h1.74ZM22.5 21v-3h-3v3Zm0-4.5v-3h-3v3Zm0-4.5V9h-3v3Zm0-4.5V3h-15v3H11q.41 0 .7.3.3.29.3.7v10q0 .41-.3.7-.29.3-.7.3H7.5v3H18V7.5Z"}"></path></svg>`;
+});
+export {
+  Component as default
+};

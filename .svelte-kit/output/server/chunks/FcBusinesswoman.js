@@ -1,0 +1,18 @@
+import { c as create_ssr_component, d as spread, e as escape_object } from "./index2.js";
+const Component = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+  return `<svg${spread(
+    [
+      { xmlns: "http://www.w3.org/2000/svg" },
+      { width: "24" },
+      { height: "24" },
+      { fill: "currentColor" },
+      { version: "1" },
+      { viewBox: "0 0 48 48" },
+      escape_object($$props)
+    ],
+    {}
+  )}><path fill="${"#BF360C"}" d="${"M16 15h16v18H16z"}"></path><path fill="${"#78909C"}" d="${"M40 44H8c0-11 11-13 11-13h10s11 2 11 13z"}"></path><path fill="${"#FF9800"}" d="${"M24 37c-2.2 0-5-6-5-6v-6h10v6s-2.8 6-5 6z"}"></path><path fill="${"#FFB74D"}" d="${"M33 14c0-7.6-18-5-18 0v7c0 5 4 9 9 9s9-4 9-9v-7z"}"></path><path fill="${"#FF5722"}" d="${"M24 4C17.9 4 9 7.4 9 27.3l7 4.7V19l12-7 4 5v15l7-6c0-4-.7-20-11-20l-1-2h-3z"}"></path><path fill="${"#FFB74D"}" d="${"M24 38c-4.4 0-5-7-5-7s2.5 4 5 4 5-4 5-4-.6 7-5 7z"}"></path><circle cx="${"28"}" cy="${"21"}" r="${"1"}" fill="${"#784719"}"></circle><circle cx="${"20"}" cy="${"21"}" r="${"1"}" fill="${"#784719"}"></circle></svg>`;
+});
+export {
+  Component as default
+};
